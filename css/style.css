@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+body{
+	font-family: "Catamaran san serif";
+	background-color: #252525;
+	font-size: 14px;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+	--color-precios:#ec3642;
+	--fondo-tarjetas:#161616;
+	--fondo-gris:#F8F8F8;
+	--color-gris:#777;
+}
+header{
+	background-color: var(--fondo-header);
+}
+
+#hero-slides{
+	color:#fff;
+	text-align: left;
+	margin-bottom: 4%;
+}
+
+#hero-slides h3{
+	font-weight:700;
+	font-size:25px;
+	text-align:left;
+	border: 5px solid #fff;
+	width:320px;
+	margin-bottom: 2%;
+}
+
+#hero-slides h1{
+	font-weight:900;
+	font-size:65px;
+	text-align: left;
+	margin-bottom: 1%;
+}
+
+hero-slides .btn-trial{
+	font-size: 20px;
+}
+
+#intro{
+	margin-bottom: 4%;	
+}
+
+.tarjetas{
+	background-color: var(--fondo-tarjetas);
+	color:#fff;
+}
+
+.tarjetas h4{
+	font-size:18px;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+}
+
+.tarjetas h5{
+	font-size: 15px;
+	margin-top:10%;
+}
+
+.tarjetas p{
+	margin-top: 4%;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+.fotogris{
+	filter: grayscale(1);
+}
+
+#products{
+	margin-bottom: 4%;
+}
+
+.newp{
+	color:#fff;
+	font-weight:600;
+	font-size:20px;
+	border: 3px solid #fff;
+	margin: 0 auto;
+  	padding: 10px 20px;;
+	width: 190px;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.cinta{
+	background-color: #000;
+	height:inherit;
+	bottom:0;
+	top:inherit;
+	overflow: hidden;
+	width: 270px;
+}
+
+.productname{
+	color:#fff;
+	padding-left: 5%;
+	margin-top: 3%;	
+	border-bottom: 1px solid #fff;
+}
+
+.price{
+	color: var(--color-rojo);
+	padding-left: 5%;
+	font-size: 20px;
+}
+
+.linet{
+	text-decoration: line-through;
+	color:var(--color-gris);
+	margin-left: 10%;
+}
+
+
+#cta{
+	background-image: url("../img/bg-parallax.png");
+	background-position: top center;
+	background-size: cover;
+	color: #fff;
+	padding: 5%;
+}
+
+#cta h2{
+	font-size:50px;
+	font-weight: 600;
+}
+
+#cta p{
+	font-size: 30px;
+}
+
+#cta .btn-trial{
+	border:2px solid #fff;
+}
+
+
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
